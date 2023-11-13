@@ -1,0 +1,82 @@
+{
+  "name": "weather-icons-animated",
+  "version": "1.0.0",
+  "type": "module",
+  "private": false,
+  "description": "A series of hand crafted and detailed weather icons animated with react & emotion.js",
+  "keywords": [
+    "react",
+    "homeassistant",
+    "home-assistant",
+    "home-automation",
+    "socket",
+    "component",
+    "library",
+    "api",
+    "weather-icons-animated",
+    "hakit/core",
+    "hakit/components",
+    "dashboard",
+    "custom",
+    "weather",
+    "animated",
+    "svg",
+    "icons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shannonhochkins/weather-icons-animated"
+  },
+  "bugs": {
+    "url": "https://github.com/shannonhochkins/weather-icons-animated/issues"
+  },
+  "homepage": "https://shannonhochkins.github.io/weather-icons-animated#readme",
+  "funding": "https://github.com/shannonhochkins/weather-icons-animated?sponsor=1",
+  "engines": {
+    "npm": ">=9.0.0",
+    "node": ">=18.0.0"
+  },
+  "main": "./dist/react-weather-icons.cjs.cjs",
+  "module": "./dist/react-weather-icons.es.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/react-weather-icons.es.js",
+      "require": "./dist/react-weather-icons.cjs.cjs",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "license": "ISC",
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "author": "Shannon Hochkins <mail@shannonhochkins.com>",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.6.3"
+  }
+}
