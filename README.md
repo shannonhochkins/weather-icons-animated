@@ -85,7 +85,7 @@ export default App
 It supports the following weather "states":
 
 - sunny
-- clear-nigh
+- clear-night
 - partlycloudy
 - cloudy
 - fog
