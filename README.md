@@ -11,7 +11,7 @@ Highly configurable animations & styles - very structured so it's easy to make c
 
 The SVG construction is based of SVG symbols so it's really easy to compose another "state" if you want to add another one.
 
-![DEMO](https://github.com/shannonhochkins/weather-icons-animated/blob/main/stories/hakit-demo.gif?raw=true)
+![DEMO](https://github.com/shannonhochkins/weather-icons-animated/blob/main/output.gif?raw=true)
 
 ## Help me out?
 
@@ -24,7 +24,6 @@ Simply install, and then import into your react project.
 
 ```
 npm install weather-icons-animated -D
-
 ```
 
 Application usage:
