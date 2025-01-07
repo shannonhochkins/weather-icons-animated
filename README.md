@@ -20,7 +20,7 @@ As you can probably tell, A lot of time has gone into this! I'd really appreciat
 
 ### How can i use this in my project?
 
-Simply install, and then import into your react project.
+Simply install the [package](https://www.npmjs.com/package/weather-icons-animated), and then import into your react project.
 
 ```
 npm install weather-icons-animated -D
@@ -30,7 +30,7 @@ Application usage:
 ```tsx
 import { WeatherSvg } from "weather-icons-animated";
 export function App() {
-   return <WeatherSvg state="sunny" width={100} height={100} />
+   return <WeatherSvg state="sunny" />
 }
 ```
 ### Resizing
@@ -52,6 +52,17 @@ const WeatherSvg = styled(_WeatherSvg)`
 `;
 export function App() {
    return <WeatherSvg state="sunny" />;
+}
+```
+
+
+### Other Properties
+Along with supporting every other svg property, you can also specify a `night` prop, which in some states will change the `sun` to a `moon`.
+
+```tsx
+import { WeatherSvg } from "./WeatherSvg";
+export function App() {
+   return <WeatherSvg state="partly-cloudy" night />;
 }
 ```
 
