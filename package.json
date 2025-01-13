@@ -1,6 +1,6 @@
 {
   "name": "weather-icons-animated",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "type": "module",
   "private": false,
   "description": "A series of hand crafted and detailed weather icons animated with react & emotion.js",
