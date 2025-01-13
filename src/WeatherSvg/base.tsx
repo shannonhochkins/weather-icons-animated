@@ -1,3 +1,4 @@
+import { Fragment, ReactElement } from 'react';
 import { Global, css } from '@emotion/react';
 import { globalStyles } from './animations';
 import { lighteningBolt } from './shapes/lightening-bolt';
@@ -29,7 +30,7 @@ function Styles() {
   />
 }
 
-export function Base() {
+export function Base(): ReactElement<typeof Fragment> {
   return <>
     <Styles />
     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style={{ width: 0, height: 0}}>

@@ -1,7 +1,8 @@
 import { css } from "@emotion/react";
+import type { ShapeType } from "../type";
 
 
-export const moon = {
+export const moon: ShapeType = {
   styles: css`
     
   `,
@@ -19,4 +20,4 @@ export const moon = {
     <circle clipPath="url('#moon-clip-path')" cx="42.5" cy="41.5" r="47.5" fill="white" mask="url(#moon-mask)" />
     <circle cx="50" cy="50" r="45" strokeWidth="1" stroke="black" fill="none" mask="url(#moon-mask)" />
   </symbol>
-}
+};

@@ -1,5 +1,5 @@
 import { css, keyframes } from "@emotion/react";
-
+import type { ShapeType } from "../type";
 const rayMoveAmount = 2.5;
 
 const weatherRay1 = keyframes`
@@ -83,7 +83,7 @@ const weatherRay8 = keyframes`
 `;
 
 
-export const sun = {
+export const sun: ShapeType = {
   styles: css`
     .sun-mask-circle {
       fill: black;
@@ -169,4 +169,4 @@ export const sun = {
         </g>
     </g>
   </symbol>
-}
+};

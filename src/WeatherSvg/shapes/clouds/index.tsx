@@ -1,7 +1,8 @@
 import { css } from "@emotion/react";
+import type { ShapeType } from "../type";
 
 
-export const clouds = {
+export const clouds: ShapeType = {
   styles: css`
     .small-cloud {
       animation-duration: 15s;
@@ -26,4 +27,4 @@ export const clouds = {
       <path d="M11,47 Q13,37 21,42 Q31,30 41,38 A28,21 -25 1,1 35,75 Q23,85 19,73 A12,12 0 0,1 11,47Z" />
     </symbol>
   </>
-}
+};

@@ -1,4 +1,5 @@
 import { css, keyframes } from "@emotion/react";
+import type { ShapeType } from "../type";
 
 const snowKeyframes = keyframes`
   0% {
@@ -24,7 +25,7 @@ const snowKeyframes = keyframes`
 `;
 
 
-export const snowFlake = {
+export const snowFlake: ShapeType = {
   styles: css`
     #snowFlake {
       fill: none;
@@ -61,4 +62,4 @@ export const snowFlake = {
     <path d="M0.75,2.90 L2.85,2.85 L2.90,0.75 M7.25,9.35 L7.15,7.15 L9.35,7.25" />
     <path d="M0.75,7.25 L2.85,7.15 L2.90,9.35 M7.15,0.75 L7.25,2.85 L9.35,2.90" />
   </symbol>
-}
+};

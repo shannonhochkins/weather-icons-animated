@@ -1,6 +1,7 @@
 import { css } from "@emotion/react";
+import type { ShapeType } from "../type";
 
-export const fog = {
+export const fog: ShapeType = {
   styles: css`
     .fog-stop-1 {
       stop-color:rgb(255,255,255);
@@ -22,4 +23,4 @@ export const fog = {
     </filter>
   </>,
   symbol: <></>
-}
+};

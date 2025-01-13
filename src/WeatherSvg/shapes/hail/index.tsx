@@ -1,4 +1,5 @@
 import { css, keyframes } from "@emotion/react";
+import type { ShapeType } from "../type";
 import { fadeInOutKeyframes } from '../../animations/fade-in-out';
 
 const weatherAnimationIncrease = Math.PI * 0.01;
@@ -35,7 +36,7 @@ const weatherHailMiddle = generateHailKeyframes(-0.15);
 const weatherHailMiddle2 = generateHailKeyframes(0.15);
 
 
-export const hail = {
+export const hail: ShapeType = {
   styles: css`
     .hail {
       transform: translateY(5%);
@@ -78,4 +79,4 @@ export const hail = {
     <circle className="hail" cx="51.6" cy="69.9" r="1.6"/>
     <circle className="hail" cx="59.9" cy="69.9" r="1.6"/>
   </symbol>
-}
+};

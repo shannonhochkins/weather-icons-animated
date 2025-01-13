@@ -1,4 +1,5 @@
 import { css, keyframes } from "@emotion/react";
+import type { ShapeType } from "../type";
 
 const rainKeyframes = keyframes`
   0% {
@@ -32,7 +33,7 @@ const drizzleKeyframes = keyframes`
 `;
 
 
-export const rain = {
+export const rain: ShapeType = {
   styles: css`
     .drop1 {
       animation: ${rainKeyframes} 1s linear infinite;
@@ -71,4 +72,4 @@ export const rain = {
       <line x1="20" y1="2" x2="10" y2="40" />
     </symbol>
   </>
-}
+};

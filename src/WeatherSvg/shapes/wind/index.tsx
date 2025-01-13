@@ -1,6 +1,6 @@
 
 import { css, keyframes } from "@emotion/react";
-
+import type { ShapeType } from "../type";
 const windBlow = keyframes`
   0% {
     stroke-dasharray: 5 300;
@@ -24,7 +24,7 @@ const windBlow = keyframes`
   }
 `;
 
-export const wind = {
+export const wind: ShapeType = {
   styles: css`
     .wind-string path {
       stroke: #ccc;
@@ -44,4 +44,4 @@ export const wind = {
         c2.131,1.166,4.545,1.809,7.027,1.809c8.072,0,14.642-6.569,14.642-14.643s-6.569-14.643-14.642-14.643H18.043"/>
     </g>
   </symbol>
-}
+};

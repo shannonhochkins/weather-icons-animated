@@ -1,7 +1,7 @@
 import { css } from "@emotion/react";
+import type { ShapeType } from "../type";
 
-
-export const star = {
+export const star: ShapeType = {
   styles: css`
     .stars {
       animation-duration: 3s;
@@ -15,4 +15,4 @@ export const star = {
       fillRule: 'nonzero'
     }}/>
   </symbol>
-}
+};

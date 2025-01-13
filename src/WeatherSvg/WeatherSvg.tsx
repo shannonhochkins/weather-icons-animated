@@ -1,3 +1,4 @@
+import { type ReactElement } from 'react';
 import { Base } from './base';
 
 export type WeatherState =
@@ -42,7 +43,7 @@ export interface WeatherSvgProps extends React.ComponentProps<'svg'> {
   night?: boolean;
 }
 
-export const WeatherSvg = ({ state, night, width, height, ...rest }: WeatherSvgProps) => {
+export const WeatherSvg = ({ state, night, width, height, ...rest }: WeatherSvgProps): ReactElement<SVGElement> => {
   return <svg viewBox="0 0 100 100" width={width ?? '100%'} height={height ?? '100%'} {...rest}>
       <Base />
        {state === "sunny" && <>

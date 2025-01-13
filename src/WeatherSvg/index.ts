@@ -4,6 +4,7 @@ export {
   type WeatherSvgProps,
   WeatherSvg
 } from './WeatherSvg';
+export type { ShapeType } from './shapes/type';
 
 export {
   Base
